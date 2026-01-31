@@ -1,0 +1,140 @@
+{
+  "project_id": "128262a20c",
+  "model_id": "61d71409ca",
+  "version_id": "3274a6cdf6",
+  "version_message": "Updated Designers: 01=Eleni \u2728, 03=Eduardo \u2728, others=Rania \u2728",
+  "graphql_info": {
+    "project": {
+      "id": "128262a20c",
+      "name": "CW26-Sessions",
+      "version": {
+        "id": "3274a6cdf6",
+        "message": "Updated Designers: 01=Eleni \u2728, 03=Eduardo \u2728, others=Rania \u2728",
+        "createdAt": "2026-01-31T02:54:58.111Z",
+        "referencedObject": "b8298d75a89cc4d131b8b405c0c0f2be"
+      }
+    }
+  },
+  "objects": [
+    {
+      "id": "b8298d75a89cc4d131b8b405c0c0f2be",
+      "speckle_type": "Base",
+      "applicationId": null,
+      "name": "modules",
+      "depth": 0,
+      "properties": {
+        "totalChildrenCount": 4,
+        "name": "modules",
+        "custom_property": "Team_02.2",
+        "speckle_type": "Base",
+        "processed_by": "Gemini",
+        "id": "b8298d75a89cc4d131b8b405c0c0f2be"
+      }
+    },
+    {
+      "id": "9feb1439f23ef130666b0b59daf7a09d",
+      "speckle_type": "Base",
+      "applicationId": null,
+      "name": "old modules",
+      "depth": 1,
+      "properties": {
+        "id": "9feb1439f23ef130666b0b59daf7a09d",
+        "totalChildrenCount": 1,
+        "speckle_type": "Base",
+        "name": "old modules"
+      }
+    },
+    {
+      "id": "91da72adf2004fc7004b998a17f45fcf",
+      "speckle_type": "Speckle.Core.Models.Collections.Collection:Speckle.Core.Models.Layer",
+      "applicationId": "7173a954-412b-4606-b14c-c2bdb579af98",
+      "name": "Layer 01",
+      "depth": 2,
+      "properties": {
+        "applicationId": "7173a954-412b-4606-b14c-c2bdb579af98",
+        "totalChildrenCount": 0,
+        "properties": {
+          "Designer": "Eleni \u2728",
+          "Module": "01"
+        },
+        "name": "Layer 01",
+        "speckle_type": "Speckle.Core.Models.Collections.Collection:Speckle.Core.Models.Layer",
+        "id": "91da72adf2004fc7004b998a17f45fcf"
+      }
+    },
+    {
+      "id": "097d3710ef9734cbfa433c95bf99d027",
+      "speckle_type": "Objects.Geometry.BrepX",
+      "applicationId": "17cc627f-f5df-44d2-908e-1cdaf96fe76c",
+      "name": null,
+      "depth": 3,
+      "properties": {
+        "applicationId": "17cc627f-f5df-44d2-908e-1cdaf96fe76c",
+        "totalChildrenCount": 0,
+        "units": "mm",
+        "properties": {
+          "Module": "01",
+          "Designer": "Eleni \u2728"
+        },
+        "area": 1319867231.5959716,
+        "speckle_type": "Objects.Geometry.BrepX",
+        "id": "097d3710ef9734cbfa433c95bf99d027",
+        "volume": 3428318529658.1543
+      }
+    },
+    {
+      "id": "7e8737c355e25439a2987ac49c9b4f9a",
+      "speckle_type": "Objects.Geometry.BrepX",
+      "applicationId": "50cae94b-00de-47e9-8e2d-15a748240fc0",
+      "name": null,
+      "depth": 3,
+      "properties": {
+        "applicationId": "50cae94b-00de-47e9-8e2d-15a748240fc0",
+        "totalChildrenCount": 0,
+        "units": "mm",
+        "properties": {
+          "Module": "03",
+          "Designer": "Eduardo \u2728"
+        },
+        "area": 1319867231.5959716,
+        "speckle_type": "Objects.Geometry.BrepX",
+        "id": "7e8737c355e25439a2987ac49c9b4f9a",
+        "volume": 3428318529658.1523
+      }
+    },
+    {
+      "id": "89b859d85e243c6cde74c81007c84c24",
+      "speckle_type": "Base",
+      "applicationId": null,
+      "name": "new modules",
+      "depth": 1,
+      "properties": {
+        "id": "89b859d85e243c6cde74c81007c84c24",
+        "totalChildrenCount": 1,
+        "speckle_type": "Base",
+        "name": "new modules"
+      }
+    },
+    {
+      "id": "fcfa0ebd156078009bf380f0e2fc1cfd",
+      "speckle_type": "Objects.Geometry.BrepX",
+      "applicationId": "moved_17cc627f-f5df-44d2-908e-1cdaf96fe76c_16000.0",
+      "name": null,
+      "depth": 2,
+      "properties": {
+        "applicationId": "moved_17cc627f-f5df-44d2-908e-1cdaf96fe76c_16000.0",
+        "totalChildrenCount": 0,
+        "units": "mm",
+        "Module": "02",
+        "properties": {
+          "Module": "02",
+          "Designer": "Rania \u2728"
+        },
+        "area": 1319867231.5959716,
+        "speckle_type": "Objects.Geometry.BrepX",
+        "id": "fcfa0ebd156078009bf380f0e2fc1cfd",
+        "volume": 3428318529658.1543
+      }
+    }
+  ]
+}

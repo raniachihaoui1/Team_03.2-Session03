@@ -1,3 +1,11 @@
+"""Step 03: Copy Libny Model in New Model
+====================================="""
+## This script demonstrates how to copy objects from an existing Speckle model
+
+
+
+
+
 from main import get_client
 from specklepy.api.operations import receive, send
 from specklepy.transports.server import ServerTransport

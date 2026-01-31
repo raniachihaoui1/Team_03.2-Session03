@@ -1,3 +1,11 @@
+"""Step 04: Modify Geometry in Speckle
+====================================="""
+## This script demonstrates how to modify geometry of an object
+
+
+
+
+
 import copy
 from main import get_client
 from specklepy.api.operations import receive, send
@@ -55,7 +63,7 @@ def main():
     new_geometry = copy.deepcopy(target_obj)
     new_geometry.applicationId = f"moved_{TARGET_APP_ID}_{OFFSET_Z}"
     
-    # Set the Property "Module: 02"
+    # Set the Property "Module: 02" (could ask about this is support hour, it always copied at module 01)
     new_geometry["Module"] = "02"
     offset_geometry(new_geometry, OFFSET_Z)
 

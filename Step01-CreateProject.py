@@ -1,4 +1,4 @@
-"""Step 01: Create a Project in Speckle
+"""Step 01: Create a Project in Speckle  DO NOT RUN-THIS IS FOR REFERENCE ONLY HOW TO CREATE FROM SCRATCH
 ====================================="""
 ## This script demonstrates how to create a new PROJECT in Speckle
 
@@ -11,7 +11,7 @@ from specklepy.core.api.inputs.project_inputs import WorkspaceProjectCreateInput
 from specklepy.core.api.enums import ProjectVisibility
 
 # Your workspace ID
-WORKSPACE_ID = "a1cd06bae2"
+WORKSPACE_ID = "a1cd06bae2" ##The Id of general workspace in macad-iaac account if i want to create seperate project there
 
 
 def main():

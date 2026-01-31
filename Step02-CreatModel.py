@@ -12,7 +12,7 @@ from specklepy.core.api.inputs.model_inputs import CreateModelInput
 
 ## Your project ID
 PROJECT_ID = "128262a20c" ##the homework folder created by Libny (for more info about creating project see Step01-CreateProject.py)
-MODEL_NAME = "homework/session03/team_03.2_rc" ##name of the model to be created
+MODEL_NAME = "homework/session03/team_03.2_rc" ##name of the model to be created ## ID you ll need 61d71409ca
 
 def main():
     client = get_client()

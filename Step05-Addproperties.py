@@ -1,3 +1,11 @@
+"""Step 05: Add Properties to Objects in Speckle
+====================================="""
+## This script demonstrates how to add properties to objects in Speckle
+## so here I figured after many errors that it had given me I will just asign the properties based on module number
+## and based on the category of the module number I will asign the designer name so in this case they were brep
+
+
+
 from main import get_client
 from specklepy.transports.server import ServerTransport
 from specklepy.api import operations
